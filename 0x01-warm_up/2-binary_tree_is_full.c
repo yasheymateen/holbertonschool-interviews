@@ -19,7 +19,7 @@ int count_outliers(const binary_tree_t *tree)
 	{
 		return (1);
 	}
-	return outliers;
+	return (outliers);
 }
 
 /**
