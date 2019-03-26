@@ -23,5 +23,8 @@ int binary_search(int *array, size_t size, int value);
 void print_array(int *array, size_t size);
 int binary_tree_is_full(const binary_tree_t *tree);
 void binary_tree_print(const binary_tree_t *);
+binary_tree_t *binary_tree_node(binary_tree_t *parent, int value);
+binary_tree_t *binary_tree_insert_right(binary_tree_t *parent, int value);
+
 
 #endif /*_SEARCH_ALGOS_H_ */
